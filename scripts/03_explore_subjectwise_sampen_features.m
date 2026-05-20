@@ -1,4 +1,4 @@
-%%%%%%%% Exploratory analysis of subject-wise sample entropy features %%%%%%%%
+%%%%%%%% Exploratory analysis of subject-wise sample entropy summary features %%%%%%%%
 %
 % This script performs exploratory analysis of subject-wise sample entropy
 % estimates derived from MEG scout/source-localised time-series data.
