@@ -33,4 +33,9 @@ CAST((hour - 1) / 24 AS INTEGER) + 1 AS recording_day,
     rodent_id,
 	sf 
 	FROM unpivoted; 
+
+CREATE TABLE sf_long_table AS
+SELECT *
+FROM seizures_long 
+ORDER BY rodent_id, hour; 
   
