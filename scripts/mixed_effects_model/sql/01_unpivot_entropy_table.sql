@@ -79,3 +79,9 @@ FROM unpivoted;
 /* check the n_entries */
 SELECT COUNT(*) AS total_rows
 FROM entropy_long;
+
+/* export as csv */
+CREATE TABLE se_long_table AS
+SELECT *
+FROM entropy_long
+ORDER BY rodent_id, hour; 
