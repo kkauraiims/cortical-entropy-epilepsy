@@ -1,4 +1,4 @@
-########### Build backward regression model of mean SampEn and age of epilepsy onset #########
+########### Build backward regression model of mean SampEn and clinical variables #########
 # This script models the association between subject-level mean sample entropy
 # and clinical variables in an epilepsy patient cohort.
 #
